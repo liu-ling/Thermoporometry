@@ -1,15 +1,9 @@
-# Thermoporometry
+#  Calorimetric thermoporometry
 
-Thermoporometry is a method for measuring porosity. This technique uses differential scanning calorimetry (DSC) to detect the phase changes. In this work, thermoporometry probes complementary dimensions of water interaction with cellulose.
+The shared files are employed in the determination of biomass nanoscale porosity in aqueous environment, following the analytical developments presented in the published article.1 The following files are included:
 
-Macro_Thermoporometry is an open-source data analysis. The calculations run by the macro are detail in Driemeire et al, 2012 (Paper: Artigo_Cellulose2012.pdf).
-
-Here is a current directory structure:
-  
-  - DSC 002-351.txt : you need to edit this
-  
-  - MACRO_TERMOPOROMETRIA.xlsm : you need to execute this macro to obtain results
-      
-  - MeT192016.pdf : This technical memorandum recorded all steps of experiments in the laboratory and generated computational  results to share resources in the open community
-  
-  - Artigo_Cellulose2012.pdf : This paper reports on experimenting with the dynamic vapor sorption and thermoporometry. The computational experiments are used the macro file to produce results
+ - CNPEM Technical Memorandum that describes in detail the laboratory and data analysis procedures.
+ - A text file that exemplifies instrument output data.
+ - Microsoft Excel macro that analyzes the instrument output data to construct thermoporometry profiles (FBW × pore diameter). 
+ 
+ 1 Driemeier, C., Mendes, F. M., & Oliveira, M. M. (2012). Dynamic vapor sorption and thermoporometry to probe water in celluloses. Cellulose, 19(4), 1051–1063. [Sites Using React](http://doi.org/10.1007/s10570-012-9727-z)
